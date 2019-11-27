@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>LandingPage</title>
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i&display=swap" rel="stylesheet">
+    <style type="text/css">
+        :root{
+            --taronja: orange;
+            --t1: 1em;
+            --t2: 2em;
+            --t3: 1.5em;
+            --cos: 0.85em;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: aquamarine;
+            font-size: 18px;
+            font-family: 'Arimo', sans-serif
+        }
+        .contenidor{
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            background-color: aquamarine;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        img{
+            width: 100%;
+        }
+      
+        .col1{
+            padding: 1em 1em 2em 2em; 
+            background-color: white;
+            width: 400px;
+            height: 400px;
+            box-shadow: 10px 10px;
+        }
+        .col2{
+            background-color: white;
+            width: 400px;
+            height: 400px;
+            box-shadow: 10px 10px;
+        }
+        .col2 img{
+            overflow: hidden;
+            padding-top: 42px;
+            padding-right: 10px;
+        }
+        h1{
+            color: orange;
+            
+        }
+        p:last-child{
+            margin: 1em 2em 3em 0;
+            padding: .5em;
+            border-radius: 50px;
+            background: purple;
+            color: white;
+            font-size: 0.9;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <div class="contenidor">
+       <div class="col1">
+        <h1>COMPANY LOGO</h1>
+        <h2>START UP</h2>
+        <h3>Business Plan</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ut sed libero in fugiat iure, debitis deserunt a cum aliquid facilis? Possimus ea voluptates illo numquam quibusdam quo ex id.</p>
+        <p>Learn More</p>
+       </div>
+       
+    <div class="col2">
+        <img src="img/disseny.png" alt="">
+    </div>
+    </div>
+</body>
+</html>
